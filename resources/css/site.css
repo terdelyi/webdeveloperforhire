@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skill-cloud {
+	@apply flex flex-wrap gap-2 md:text-lg;
+}
+
+.skill-cloud li {
+	@apply py-1 px-4 rounded-md border border-grey bg-full-grey text-black font-bold;
+}
+
+.skill-cloud li.green {
+	@apply border-green bg-light-green text-dark-green;
+}
+
+.skill-cloud li.blue {
+	@apply border-indigo-blue bg-light-blue text-dark-blue;
+}
+
+.skill-cloud li.grey {
+	@apply border-dark-grey bg-full-grey text-dark-grey;
+}
+
+.service-list li {
+	@apply inline-block lg:block;
+}
+
+.service-list li button {
+	@apply block lg:block lg:w-full text-left mb-2 bg-white rounded-md border border-grey py-2 lg:py-3 px-4 lg:px-5 hover:text-dark-black hover:border-dark-grey text-dark-blue lg:text-lg;
+}
+
+.service-list li button.active {
+	@apply bg-blue font-bold text-white border-blue;
+}
+
+.service-description {
+	@apply text-black md:text-lg leading-relaxed;
+}
+
+.has-paragraph p {
+	@apply mb-6;
+}
