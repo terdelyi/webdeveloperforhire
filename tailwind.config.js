@@ -30,7 +30,11 @@ module.exports = {
       text: ['Inter', 'sans-serif'],
       title: ['Sora', 'serif'],
     },
-    extend: {},
+    extend: {
+      lineHeight: {
+        'tighter': '1.15'
+      }
+    },
   },
   plugins: [],
 }

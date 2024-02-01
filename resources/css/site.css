@@ -7,19 +7,19 @@
 }
 
 .skill-cloud li {
-	@apply py-1 px-4 rounded-md border border-grey bg-full-grey text-black font-bold;
+	@apply py-1 px-4 rounded-md bg-full-grey text-black font-bold shadow;
 }
 
 .skill-cloud li.green {
-	@apply border-green bg-light-green text-dark-green;
+	@apply bg-light-green text-dark-green;
 }
 
 .skill-cloud li.blue {
-	@apply border-indigo-blue bg-light-blue text-dark-blue;
+	@apply bg-light-blue text-dark-blue;
 }
 
 .skill-cloud li.grey {
-	@apply border-dark-grey bg-full-grey text-dark-grey;
+	@apply bg-full-grey text-dark-grey;
 }
 
 .service-list li {
@@ -36,6 +36,10 @@
 
 .service-description {
 	@apply text-black md:text-lg leading-relaxed;
+}
+
+.service-description h3 {
+	@apply text-3xl text-blue font-bold font-title mb-8;
 }
 
 .has-paragraph p {
