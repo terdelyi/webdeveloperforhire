@@ -45,3 +45,7 @@
 .has-paragraph p {
 	@apply mb-6;
 }
+
+/** LastPass pls */
+div[data-lastpass-icon-root] { display: none; }
+div[data-lastpass-root] { display: none; }
