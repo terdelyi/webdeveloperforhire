@@ -27,7 +27,7 @@
 }
 
 .service-list li button {
-	@apply block lg:block lg:w-full text-left mb-2 bg-white rounded-md border border-grey py-2 lg:py-3 px-4 lg:px-5 hover:text-dark-black hover:border-dark-grey text-dark-blue lg:text-lg;
+	@apply block lg:block lg:w-full text-left mb-3 bg-white rounded-md shadow border-grey py-2 lg:py-3 px-4 lg:px-5 hover:text-dark-black hover:border-dark-grey text-dark-blue lg:text-lg;
 }
 
 .service-list li button.active {
@@ -35,7 +35,11 @@
 }
 
 .service-description {
-	@apply text-black md:text-lg leading-relaxed;
+	@apply text-black md:text-lg;
+}
+
+.service-description p {
+	@apply leading-relaxed;
 }
 
 .service-description h3 {
