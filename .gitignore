@@ -1,2 +1,4 @@
-node_modules
-dist/assets/site.css
+/.idea
+/node_modules
+/dist
+/vendor
