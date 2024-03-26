@@ -13,5 +13,5 @@ To be able to build the site locally you need PHP 8.1 and Node 20.
 
 ## Disclaimer
 
-I don't mind if you get inspired, but please don't copy the design or the content of the site directly. Additionally,
-if you re-use the code or any elements, I would be happy to hear about it.
+I absolutely don't mind if you get inspired, but please don't copy the design or the content of this site directly.
+If you re-use the code or any elements, please drop me a DM, I would be happy to hear about it!
