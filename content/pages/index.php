@@ -11,7 +11,7 @@
     <link rel="canonic" href="<?php echo url('/'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap" media="print">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Rubik:wght@400;700">
     <link rel="shortcut icon" href="<?php echo asset('images/favicon.ico'); ?>" type="image/x-icon">
     <link rel="icon" href="<?php echo asset('images/favicon.ico'); ?>" type="image/x-icon">
 
