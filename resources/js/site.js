@@ -1,3 +1,4 @@
+import '../css/site.css';
 function changeService(service, serviceButton) {
     const serviceContent = document.getElementById(service);
     serviceContent.classList.remove('hidden');
