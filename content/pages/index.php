@@ -45,7 +45,7 @@
         <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-8 xl:pt-12 pb-14 md:pb-20 xl:pb-30 relative">
             <h1 class="font-bold font-title text-5xl md:text-6xl lg:text-7xl text-white tracking-tight xl:mt-10 mb-6 md:mb-8 md:max-w-screen-md xl:max-w-full whitespace-pre-line leading-tight lg:leading-none drop-shadow-lg">Are you looking for
                 a web developer?</h1>
-            <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-md leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! With 23 years of hands-on experience on both frontend and backend, I'm ready to transform your ideas into reality - or fix your broken website or application.</div>
+            <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-md xl:max-w-screen-sm leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! With 23 years of hands-on experience in both frontend and backend development, I'm here to help with your goals.</div>
             <a href="https://calendly.com/get-tamas/30min" class="w-full block md:w-fit text-center md:text-left rounded-md shadow-md px-4 md:px-7 py-3 md:py-4 font-bold text-base sm:text-lg md:text-xl bg-yellow hover:bg-dark-black text-dark-black hover:text-white">Book a free consultation today</a>
             <picture class="hidden lg:block lg:absolute bottom-0 right-0">
                 <source type="image/webp" srcset="<?php echo asset('images/me.webp'); ?>" />
@@ -59,40 +59,43 @@
                 <div class="lg:w-7/12 md:text-lg mb-10 lg:mb-0">
                     <h2 class="text-3xl md:text-5xl font-title font-bold text-magenta mb-8">Who am I?</h2>
                     <div class="leading-relaxed has-paragraph text-black">
-                        <p>My name is  <span title="pronounced as TAH-mahsh AIR-day-yee font-bold">Tamas Erdelyi</span>, and I'm a software developer based in Gloucestershire, United Kingdom.</p>
-                        <p>I built hundreds of websites and web applications used by millions of visitors during my professional career. I worked for numerous agencies and startups across different sectors, including marketing, fintech, prop-tech, and healthcare. I worked independently, as part of a team, and even led a teams of developers once. I wrote the code of dozens single and multi tenant web applications, scalable microservices, and I also built a modular CMS from scratch. I can set up and manage servers to host your website or application, and I also have some experience in building and distributing mobile and desktop applications. I feel myself more confident on the back-end, therefore I'm primarily, but not exclusively specialised to PHP programming.</p>
-                        <p>I'm passionate about refactoring, upgrading and identifying bugs. Think of me as the electrician who fixes your broken TV instead of throwing it away. I'm unafraid to step outside my comfort zone, push my boundaries, and explore new languages, frameworks, libraries, or platforms. I actively seek out these opportunities.</p>
-                        <p>I've achieved nearly everything I aimed for in my career as an employee. At some point, I found the opportunity to venture into new territories: offering my software development services directly, building my own products, creating courses, and mentoring less experienced programmers.</p>
+                        <p>My name is  <span title="pronounced as TAH-mahsh AIR-day-yee font-bold">Tamas Erdelyi</span>, and I'm a freelance software developer based in Gloucestershire, United Kingdom.</p>
+                        <p>I worked on hundreds of websites and web applications used by millions of visitors during my professional career. I was employed by various digital agencies and startups across different sectors, including marketing, fintech, prop-tech, and healthcare. I worked independently, as part of a team, and even led a teams of developers. I wrote the code of dozens single and multi-tenant web applications, scalable microservices, and I also created a modular CMS from scratch. I can set up and manage servers to host websites or web-applications, and I also have some experience in building and distributing mobile and desktop applications. I feel myself more confident on the backend, therefore I'm mainly, but not exclusively specialised to programming in PHP.</p>
+                        <p>I'm passionate about refactoring, optimising and identifying bugs. Think of me as the electrician who fixes your broken TV instead of throwing it away. I'm not afraid to step outside my comfort zone, push the boundaries, and explore new languages, frameworks, libraries or platforms. I'm actively seeking out these opportunities.</p>
+                        <p>As an employee, I've achieved nearly everything I aimed for in my career and decided to venture into new territories. Today, I offer my software development skills directly, working on my own products, creating courses, and mentoring less experienced programmers.</p>
                     </div>
                 </div>
                 <div class="lg:w-5/12">
                     <h2 class="text-2xl md:text-3xl font-title font-bold text-magenta mb-4 md:mb-6">Expertise bingo</h2>
                     <p class="mb-5 md:text-lg leading-relaxed text-black">If any of the following buzzwords resonates with what you're looking for, I can certainly help you.</p>
                     <ul class="skill-cloud mb-10 md:mb-16">
-                        <li>PHP</li>
-                        <li>JavaScript</li>
+                        <li class="blue">PHP</li>
+                        <li class="blue">JavaScript</li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>VueJS</li>
                         <li>jQuery</li>
+                        <li>Node.js</li>
                         <li>Laravel</li>
                         <li>Symfony</li>
                         <li>CodeIgniter</li>
                         <li>Yii2</li>
-                        <li class="blue">WordPress</li>
-                        <li class="blue">CraftCMS</li>
-                        <li class="blue">Statamic</li>
-                        <li class="blue">Jamstack</li>
-                        <li class="blue">Plugin development</li>
+                        <li>WordPress</li>
+                        <li>CraftCMS</li>
+                        <li>Statamic</li>
+                        <li>Jamstack</li>
                         <li>MySQL</li>
-                        <li>SQLite</li>
-                        <li>Postgres</li>
                         <li>Docker</li>
-                        <li>API</li>
+                        <li>Jenkins</li>
+                        <li>RabbitMQ</li>
+                        <li>Redis</li>
+                        <li>API Development</li>
                         <li>Microservices</li>
+                        <li>TDD</li>
+                        <li>Git</li>
                     </ul>
-                    <h2 class="text-2xl md:text-2xl font-title font-bold text-magenta mb-4 md:mb-6">What about webdesign or SEO?</h2>
-                    <p class="md:text-lg leading-relaxed text-black">I don't do them personally, but don't worry at all. I know some remarkable people who can assist you and I can do the rest.</p>
+                    <h2 class="text-2xl md:text-2xl font-title font-bold text-magenta mb-4 md:mb-6">How about web design or SEO?</h2>
+                    <p class="md:text-lg leading-relaxed text-black">I don't do them personally, but don't panic! I know some remarkable people in the industry who can assist you, and I can focus on the rest.</p>
                 </div>
             </div>
         </div>
@@ -111,25 +114,25 @@
                         <li><button data-service="service-refactoring">Refactor and optimise</button></li>
                         <li><button data-service="service-deployment">Improve deployment processes</button></li>
                         <li><button data-service="service-consultancy">Software consultancy</button></li>
-                        <li><button data-service="service-hire-me">Temporary team member for hire</button></li>
+                        <li><button data-service="service-hire-me">Team member for hire</button></li>
                     </ul>
                 </div>
                 <div class="md:hidden">
                     <ul class="list-disc pl-5 text-dark-blue leading-loose mb-6">
-                        <li>Website development and maintenance</li>
+                        <li>Website development with aftercare</li>
                         <li>Web and native applications</li>
                         <li>API and microservices</li>
-                        <li>Upgrading legacy stack</li>
-                        <li>Refactoring and optimising</li>
-                        <li>Improving deployment processes</li>
+                        <li>Upgrade legacy stack</li>
+                        <li>Refactor and optimise</li>
+                        <li>Improve deployment processes</li>
                         <li>Software consultancy</li>
-                        <li>Extending your team temporarily</li>
+                        <li>Team member for hire</li>
                     </ul>
-                    <div class="text-black">For the full descriptions please open this site in a desktop browser.</div>
+                    <div class="text-black">For the full description please open this page in a desktop browser.</div>
                 </div>
                 <div class="hidden md:block lg:w-8/12 service-description has-paragraph lg:pl-6 py-2">
                     <div id="service-app-development" class="hidden">
-                        <h3>Bring your idea and leave the implementation to me</h3>
+                        <h3>Bring your ideas and leave the implementation to me</h3>
                         <p>In today's digital landscape, applications are everywhere – not just on your computer or phone, but even in your fridge. With years of experience crafting web applications, Content Management Systems (CMS), and various SaaS-type, subscription-based multi-tenant products, I specialise in building robust, scalable, and maintainable solutions.</p>
                         <p>I worked on several multiplatform applications built for Windows (.NET, WinForms), macOS (NW.js) or iPad (Swift) and I'm always eager to expand my expertise with new technologies.</p>
                         <p>I can help you build small or mid-sized applications, companions or command line utilities to support your existing or your brand-new product.</p>
@@ -178,17 +181,27 @@
             </div>
         </div>
     </section>
-    <section class="w-full bg-gradient-to-b from-blue to-mint-green">
+    <section class="w-full bg-gradient-to-b from-dark-blue to-blue">
         <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 py-10 md:py-14 lg:py-20">
-            <h2 class="text-4xl md:text-5xl font-title font-bold text-white mb-8 md:mb-16 drop-shadow">What people say about my work...</h2>
-            <div class="lg:flex lg:gap-20 text-white">
-                <div class="lg:w-6/12 md:text-xl mb-6 md:mb-10 lg:mb-0 drop-shadow">
-                    <p class="mb-8 md:mb-10 leading-normal">“Working with Tamas was rewarding and a breath of fresh air, <strong class="font-bold text-yellow">not many developers can communicate as well as Tamas</strong> when it comes to designing and building systems for customers.”</p>
-                    <p class="leading-normal">“Tamas’ work developing key applications for us was excellent. He managed to be <strong class="font-bold text-yellow">both absolutely likeable and a valued thinker</strong>, which showed in his work.”</p>
+            <h2 class="text-4xl md:text-5xl font-title font-bold text-white mb-8 md:mb-16 drop-shadow">What people say about me and my work</h2>
+            <div class="grid grid-cols-3 text-white leading-normal gap-8">
+                <div>
+                    “Working with Tamas was rewarding and a breath of fresh air, <strong class="font-bold text-yellow">not many developers can communicate as well as Tamas</strong> when it comes to designing and building systems for customers.”
                 </div>
-                <div class="lg:w-6/12 md:text-xl leading-relaxed drop-shadow">
-                    <p class="mb-8 md:mb-10 leading-normal">“During the time we worked together he made a precise and clean work. He eagerly participates with the other members of the team, sharing his ideas and expertise. <strong class="font-bold text-yellow">He is always ready to jump in anywhere we need help.</strong>”</p>
-                    <p class="leading-normal">“Tamas is a reliable, creative senior PHP developer with a genuine drive to learn new things and <strong class="font-bold text-yellow">become better at his job day by day</strong>.”</p>
+                <div>
+                    “Tamas’ work developing key applications for us was excellent. He managed to be <strong class="font-bold text-yellow">both absolutely likeable and a valued thinker</strong>, which showed in his work.”
+                </div>
+                <div>
+                    “During the time we worked together he made a precise and clean work. He eagerly participates with the other members of the team, sharing his ideas and expertise. <strong class="font-bold text-yellow">He is always ready to jump in anywhere we need help.</strong>”
+                </div>
+                <div>
+                    “I was always very grateful for <strong class="font-bold text-yellow">Tamas' very positive attitude</strong> and outlook during our time working together, he had a very positive effect on my working life.”
+                </div>
+                <div>
+                    “Tamas is a reliable, creative senior PHP developer with a genuine drive to learn new things and <strong class="font-bold text-yellow">become better at his job day by day</strong>.”
+                </div>
+                <div>
+                    “With his <strong class="font-bold text-yellow">strong technical and debugging skills</strong> Tamas was instrumental in developing microservices. He was extremely helpful, always one of the go-to guys for information.”
                 </div>
             </div>
         </div>
@@ -198,7 +211,7 @@
             <div class="lg:flex lg:gap-10">
                 <div class="w-full lg:w-5/12 text-white pb-20 lg:pb-10">
                     <h2 class="text-4xl md:text-5xl font-title text-white font-bold mb-10 leading-tight">Let's have a chat!</h2>
-                    <p class="text-lg mb-10 leading-relaxed">Provide me some details about the task using the form, or schedule an appointment right away for a 30 minutes online introduction call. I aim to respond to all queries within 2 workdays.</p>
+                    <p class="text-lg mb-10 leading-relaxed">Give me some details to start with and discuss how can I help you. Use the form or schedule an appointment right away. I aim to respond to all queries within 2 workdays.</p>
                     <ul class="flex gap-2 items-center mb-12">
                         <li>
                             <a href="https://linkedin.com/in/terdelyi" title="LinkedIn" class="block p-2 transition-transform hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-12 lg:w-9 fill-white"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></a>
