@@ -7,30 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#F6095E" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#F6095E" media="(prefers-color-scheme: dark)">
-    <link href="https://webdeveloperforhire.co.uk/assets/site.css" rel="stylesheet">
-    <link rel="canonic" href="https://webdeveloperforhire.co.uk">
+    <link href="<?php echo asset('css/site.css'); ?>" rel="stylesheet">
+    <link rel="canonic" href="<?php echo url('/'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" fetchpriority="high">
-    <link rel="shortcut icon" href="https://webdeveloperforhire.co.uk/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="https://webdeveloperforhire.co.uk/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap" media="print">
+    <link rel="shortcut icon" href="<?php echo asset('images/favicon.ico'); ?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo asset('images/favicon.ico'); ?>" type="image/x-icon">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:title" content="Web Developer - PHP, MySQL, Laravel, Symfony, WordPress">
-    <meta property="og:url" content="https://webdeveloperforhire.co.uk">
+    <meta property="og:url" content="<?php echo url('/'); ?>">
     <meta property="og:description" content="Are you looking for a web developer? With 23 years of hands-on experience, I'm ready to transform your ideas into reality.">
     <meta property="og:type" content="business.business">
-    <meta property="og:image" content="https://webdeveloperforhire.co.uk/images/meta.jpeg">
+    <meta property="og:image" content="<?php echo asset('images/meta.jpeg'); ?>">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="webdeveloperforhire.co.uk">
-    <meta property="twitter:url" content="https://webdeveloperforhire.co.uk">
+    <meta property="twitter:url" content="<?php echo url('/'); ?>">
     <meta name="twitter:title" content="Web Developer - PHP, MySQL, Laravel, Symfony, WordPress">
     <meta name="twitter:description" content="Are you looking for a web developer? With 23 years of hands-on experience, I'm ready to transform your ideas into reality.">
-    <meta name="twitter:image" content="https://webdeveloperforhire.co.uk/images/meta.jpeg">
+    <meta name="twitter:image" content="<?php echo asset('images/meta.jpeg'); ?>">
 
-    <script src="../resources/js/site.js" type="text/javascript"></script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
@@ -49,8 +48,8 @@
             <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-md leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! With 23 years of hands-on experience around web related services, I'm ready to transform your ideas into reality - or fix your broken software.</div>
             <a href="https://calendly.com/get-tamas/30min" class="w-full block md:w-fit text-center md:text-left rounded-md shadow-md px-4 md:px-7 py-3 md:py-4 font-bold text-base sm:text-lg md:text-xl bg-yellow hover:bg-dark-black text-dark-black hover:text-white">Book your free consultation today</a>
             <picture class="hidden lg:block lg:absolute bottom-0 right-0">
-                <source type="image/webp" srcset="https://webdeveloperforhire.co.uk/images/me.webp" />
-                <img src="https://webdeveloperforhire.co.uk/images/me.png" alt="Tamas is pointing to the real deal" width="423" loading="lazy" />
+                <source type="image/webp" srcset="<?php echo asset('images/me.webp'); ?>" />
+                <img src="<?php echo asset('images/me.png'); ?>" alt="Tamas is pointing to the real deal" width="423" loading="lazy" />
             </picture>
         </div>
     </header>
@@ -60,7 +59,7 @@
                 <div class="lg:w-7/12 md:text-lg mb-10 lg:mb-0">
                     <h2 class="text-3xl md:text-5xl font-title font-bold text-magenta mb-8">Who am I?</h2>
                     <div class="leading-relaxed has-paragraph text-black">
-                        <p>My name is  <span title="pronounced as TAH-mahsh AIR-day-yee font-bold">Tamas Erdelyi</span> and I'm a software developer based in Gloucestershire, United Kingdom.</p>
+                        <p>My name is  <span title="pronounced as TAH-mahsh AIR-day-yee font-bold">Tamas Erdelyi</span>, and I'm a software developer based in Gloucestershire, United Kingdom.</p>
                         <p>I built hundreds of websites and web applications used by millions of visitors during my professional career. I worked for numerous agencies and startups across different sectors, including marketing, fintech, prop-tech, and healthcare. I worked independently, as part of a team, and even led a teams of developers once. I wrote the code of dozens single and multi tenant web applications, scalable microservices, and I also built a modular CMS from scratch. I can set up and manage servers to host your website or application, and I also have some experience in building and distributing mobile and desktop applications. I feel myself more confident on the back-end, therefore I'm primarily, but not exclusively specialised to PHP programming.</p>
                         <p>I'm passionate about refactoring, upgrading and identifying bugs. Think of me as the electrician who fixes your broken TV instead of throwing it away. I'm unafraid to step outside my comfort zone, push my boundaries, and explore new languages, frameworks, libraries, or platforms. I actively seek out these opportunities.</p>
                         <p>I've achieved nearly everything I aimed for in my career as an employee. At some point, I found the opportunity to venture into new territories: offering my software development services directly, building my own products, creating courses, and mentoring less experienced programmers.</p>
@@ -242,6 +241,7 @@
             <div class="text-dark-grey text-sm text-center lg:pt-2 mt-16">No web designers were harmed in the making of this website. The carbon emission of this page is 0.08g of CO₂. Icons by FontAwesome. All rights reserved (c) 2024.</div>
         </div>
     </footer>
+    <script src=".<?php echo asset('js/site.js'); ?>" type="text/javascript"></script>
 </div>
 </body>
 </html>
