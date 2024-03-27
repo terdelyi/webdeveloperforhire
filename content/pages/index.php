@@ -43,10 +43,10 @@
 <div class="mx-auto">
     <header class="w-full bg-gradient-to-b from-complementer to-magenta">
         <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-8 xl:pt-12 pb-14 md:pb-20 xl:pb-30 relative">
-            <h1 class="font-bold font-title text-5xl md:text-6xl lg:text-7xl text-white tracking-tight xl:mt-10 mb-6 md:mb-8 md:max-w-screen-md xl:max-w-full whitespace-pre-line leading-tight lg:leading-none drop-shadow-lg">Do you need
+            <h1 class="font-bold font-title text-5xl md:text-6xl lg:text-7xl text-white tracking-tight xl:mt-10 mb-6 md:mb-8 md:max-w-screen-md xl:max-w-full whitespace-pre-line leading-tight lg:leading-none drop-shadow-lg">Are you looking for
                 a web developer?</h1>
-            <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-md leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! With 23 years of hands-on experience around web related services, I'm ready to transform your ideas into reality - or fix your broken software.</div>
-            <a href="https://calendly.com/get-tamas/30min" class="w-full block md:w-fit text-center md:text-left rounded-md shadow-md px-4 md:px-7 py-3 md:py-4 font-bold text-base sm:text-lg md:text-xl bg-yellow hover:bg-dark-black text-dark-black hover:text-white">Book your free consultation today</a>
+            <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-md leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! With 23 years of hands-on experience on both frontend and backend, I'm ready to transform your ideas into reality - or fix your broken website or application.</div>
+            <a href="https://calendly.com/get-tamas/30min" class="w-full block md:w-fit text-center md:text-left rounded-md shadow-md px-4 md:px-7 py-3 md:py-4 font-bold text-base sm:text-lg md:text-xl bg-yellow hover:bg-dark-black text-dark-black hover:text-white">Book a free consultation today</a>
             <picture class="hidden lg:block lg:absolute bottom-0 right-0">
                 <source type="image/webp" srcset="<?php echo asset('images/me.webp'); ?>" />
                 <img src="<?php echo asset('images/me.png'); ?>" alt="Tamas is pointing to the real deal" width="423" loading="lazy" />
