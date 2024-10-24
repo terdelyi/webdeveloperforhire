@@ -43,7 +43,7 @@
 }
 
 .service-description h3 {
-	@apply text-3xl text-magenta font-semibold font-title mb-8;
+	@apply text-2xl text-magenta font-semibold font-title mb-6;
 }
 
 .has-paragraph p {
