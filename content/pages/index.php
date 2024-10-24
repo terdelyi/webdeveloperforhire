@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
-    <title>Web Developer - PHP, MySQL, Laravel, Symfony, WordPress</title>
+    <title>Web Developer - PHP, Laravel, Symfony, WordPress</title>
     <meta name="description" content="Are you looking for a web developer? With 23 years of hands-on experience, I'm ready to transform your ideas into reality.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +11,12 @@
     <link rel="canonic" href="<?php echo url('/'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Rubik:wght@400;700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Rubik:wght@400;600">
     <link rel="shortcut icon" href="<?php echo asset('images/favicon.ico'); ?>" type="image/x-icon">
     <link rel="icon" href="<?php echo asset('images/favicon.ico'); ?>" type="image/x-icon">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:title" content="Web Developer - PHP, MySQL, Laravel, Symfony, WordPress">
+    <meta property="og:title" content="Web Developer - PHP, Laravel, Symfony, WordPress">
     <meta property="og:url" content="<?php echo url('/'); ?>">
     <meta property="og:description" content="Are you looking for a web developer? With 23 years of hands-on experience, I'm ready to transform your ideas into reality.">
     <meta property="og:type" content="business.business">
@@ -26,7 +26,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="webdeveloperforhire.co.uk">
     <meta property="twitter:url" content="<?php echo url('/'); ?>">
-    <meta name="twitter:title" content="Web Developer - PHP, MySQL, Laravel, Symfony, WordPress">
+    <meta name="twitter:title" content="Web Developer - PHP, Laravel, Symfony, WordPress">
     <meta name="twitter:description" content="Are you looking for a web developer? With 23 years of hands-on experience, I'm ready to transform your ideas into reality.">
     <meta name="twitter:image" content="<?php echo asset('images/meta.jpeg'); ?>">
 
@@ -34,7 +34,7 @@
         {
             "@context": "https://schema.org/",
             "@type": "WebPage",
-            "name": "Web Developer for hire - Tamas Erdelyi"
+            "name": "Hi, I'm a web developer for hire!"
         }
     </script>
     <script src="https://cdn.usefathom.com/script.js" data-site="PHPEAKPP" defer></script>
@@ -42,54 +42,49 @@
 <body class="font-text bg-full-grey relative subpixel-antialiased">
 <div class="mx-auto">
     <header class="w-full bg-gradient-to-b from-complementer to-magenta">
-        <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-8 xl:pt-12 pb-14 md:pb-20 xl:pb-30 relative">
+        <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-8 xl:pt-12 pb-14 md:pb-20 xl:pb-30 relative text-center">
             <h1 class="font-bold font-title text-5xl md:text-6xl lg:text-7xl text-white tracking-tight xl:mt-10 mb-6 md:mb-8 leading-tight lg:leading-none drop-shadow-lg">Are you looking for a web developer?</h1>
-            <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-lg xl:max-w-screen-md leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! With 23 years of hands-on experience in both frontend and backend development, I'm here to help with your goals.</div>
-            <a href="https://calendly.com/get-tamas/30min" class="w-full block md:w-fit text-center md:text-left rounded-md shadow-md px-4 md:px-7 py-3 md:py-4 font-bold text-base sm:text-lg md:text-xl bg-yellow hover:bg-dark-black text-dark-black hover:text-white">Book a free consultation today</a>
+            <div class="text-xl md:text-2xl text-white mb-8 md:mb-16 md:max-w-screen-lg mx-auto leading-relaxed lg:pr-40 xl:pr-0">You've come to the right place! As a freelancer with 23 years of hands-on experience in full-stack web development, I'm here to help with your goals.</div>
+            <a href="https://calendly.com/get-tamas/30min" class="w-full block md:w-fit text-center mx-auto md:text-left rounded-md shadow-md px-4 md:px-7 py-3 md:py-4 font-bold text-base sm:text-lg md:text-xl bg-yellow hover:bg-white text-dark-black hover:text-dark-black">Book a free consultation with me</a>
         </div>
     </header>
     <section id="about" class="w-full bg-white">
         <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 py-10 md:py-14 lg:py-20 lg:pb-14">
-            <div class="lg:flex lg:gap-20">
+            <div class="lg:flex lg:gap-24">
                 <div class="lg:w-7/12 md:text-lg mb-10 lg:mb-0">
-                    <h2 class="text-3xl md:text-5xl font-title font-bold text-magenta mb-8">Who am I?</h2>
+                    <h2 class="text-3xl md:text-5xl font-title font-bold text-magenta mb-8">About me</h2>
                     <div class="leading-relaxed has-paragraph text-black">
-                        <p>My name is  <span title="pronounced as TAH-mahsh AIR-day-yee font-bold">Tamas Erdelyi</span>, and I'm a freelance software developer based in Gloucestershire, United Kingdom.</p>
-                        <p>I worked on hundreds of websites and web applications used by millions of visitors during my professional career. I was employed by various digital agencies and startups across different sectors, including marketing, fintech, prop-tech, and healthcare. I worked independently, as part of a team, and even led a teams of developers. I wrote the code of dozens single and multi-tenant web applications, scalable microservices, and I also created a modular CMS from scratch. I can set up and manage servers to host websites or web-applications, and I also have some experience in building and distributing mobile and desktop applications. I feel myself more confident on the backend, therefore I'm mainly, but not exclusively specialised to programming in PHP.</p>
-                        <p>I'm passionate about refactoring, optimising and identifying bugs. Think of me as the electrician who fixes your broken TV instead of throwing it away. I'm not afraid to step outside my comfort zone, push the boundaries, and explore new languages, frameworks, libraries or platforms. I'm actively seeking out these opportunities.</p>
-                        <p>As an employee, I've achieved nearly everything I aimed for in my career and decided to venture into new territories. Today, I offer my software development skills directly, working on my own products, creating courses, and mentoring less experienced programmers.</p>
+                        <p>My name is Tamas, and I'm a freelance software developer based in Gloucestershire, United Kingdom.</p>
+                        <p>I worked on hundreds of websites and web applications used by millions of visitors during my professional career. I was employed by various digital agencies and startups across different sectors, including marketing, fintech, prop-tech, and healthcare. I worked independently, part of a team and even led a teams of developers. I wrote code for multi-tenant web applications, scalable microservices, and I also created a modular CMS from scratch. I know how set up and manage servers to host websites or web-applications, and I also have some experience in building and distributing mobile and desktop applications.</p>
+                        <p>Think of me as the electrician who fixes your broken TV instead of throwing it away. I'm passionate about refactoring, optimising and identifying bugs. I'm not afraid to step outside my comfort zone, push the boundaries, and explore new languages, frameworks, libraries or platforms.</p>
                     </div>
                 </div>
                 <div class="lg:w-5/12">
                     <h2 class="text-2xl md:text-3xl font-title font-bold text-magenta mb-4 md:mb-6">Expertise bingo</h2>
                     <p class="mb-5 md:text-lg leading-relaxed text-black">If any of the following buzzwords resonates with what you're looking for, I can certainly help you.</p>
                     <ul class="skill-cloud mb-10 md:mb-16">
-                        <li class="blue">PHP</li>
-                        <li class="blue">JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>Symfony</li>
+                        <li>JavaScript</li>
                         <li>VueJS</li>
                         <li>jQuery</li>
                         <li>Node.js</li>
-                        <li>Laravel</li>
-                        <li>Symfony</li>
-                        <li>CodeIgniter</li>
-                        <li>Yii2</li>
+                        <li>MySQL</li>
                         <li>WordPress</li>
                         <li>CraftCMS</li>
                         <li>Statamic</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
                         <li>Jamstack</li>
-                        <li>MySQL</li>
                         <li>Docker</li>
-                        <li>Jenkins</li>
-                        <li>RabbitMQ</li>
                         <li>Redis</li>
-                        <li>API Development</li>
-                        <li>Microservices</li>
+                        <li>API</li>
+                        <li>Microservice</li>
                         <li>TDD</li>
                         <li>Git</li>
                     </ul>
-                    <h2 class="text-2xl md:text-2xl font-title font-bold text-magenta mb-4 md:mb-6">How about web design or SEO?</h2>
+                    <h2 class="text-2xl md:text-2xl font-title font-bold text-magenta mb-4 md:mb-6">Do you need web design or SEO?</h2>
                     <p class="md:text-lg leading-relaxed text-black">I don't do them personally, but don't panic! I know some remarkable people in the industry who can assist you, and I can focus on the rest.</p>
                 </div>
             </div>
@@ -97,13 +92,12 @@
     </section>
     <section id="services" class="w-full bg-light-grey">
         <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-10 md:pt-14 lg:pt-20 pb-10 md:pb-8 lg:pb-16">
-            <h2 class="text-4xl md:text-5xl font-title font-bold text-dark-black mb-8">So, how can I help?</h2>
-            <div class="text-dark-black text-base md:text-2xl mb-6 md:mb-14 leading-relaxed md:leading-normal">As a freelancer, I provide web and software development services to <strong class="font-bold">small businesses, agencies and fellow freelancers</strong>. My pricing is tailored for each project, taking into account its size and value. Additionally, I provide hourly and daily flat rates.</div>
+            <h2 class="text-4xl md:text-5xl font-title font-bold text-magenta mb-8">Here's how can help you</h2>
+            <div class="text-dark-black text-base md:text-2xl mb-6 md:mb-14 leading-relaxed md:leading-normal">I provide web and software development services to <strong class="font-bold">SMEs, local businesses and fellow freelancers</strong>. My pricing is tailored for each project, taking into account its size and value, but I can also provide you hourly and daily flat rates.</div>
             <div class="lg:flex lg:gap-10">
                 <div class="hidden md:block lg:w-4/12 service-list mb-5 lg:mb-0">
                     <ul>
                         <li><button data-service="service-web-development" class="active">Website development with aftercare</button></li>
-                        <li><button data-service="service-app-development">Web and native applications</button></li>
                         <li><button data-service="service-api">API and microservices</button></li>
                         <li><button data-service="service-upgrade">Upgrade legacy stack</button></li>
                         <li><button data-service="service-refactoring">Refactor and optimise</button></li>
@@ -115,24 +109,16 @@
                 <div class="md:hidden">
                     <ul class="list-disc pl-5 text-dark-blue leading-loose mb-6">
                         <li>Website development with aftercare</li>
-                        <li>Web and native applications</li>
                         <li>API and microservices</li>
                         <li>Upgrade legacy stack</li>
                         <li>Refactor and optimise</li>
-                        <li>Improve deployment processes</li>
+                        <li>Improve distribution</li>
                         <li>Software consultancy</li>
-                        <li>Team member for hire</li>
+                        <li>Temporary team member</li>
                     </ul>
                     <div class="text-black">For the full description please open this page in a desktop browser.</div>
                 </div>
                 <div class="hidden md:block lg:w-8/12 service-description has-paragraph lg:pl-6 py-2">
-                    <div id="service-app-development" class="hidden">
-                        <h3>Bring your ideas and leave the implementation to me</h3>
-                        <p>In today's digital landscape, applications are everywhere – not just on your computer or phone, but even in your fridge. With years of experience crafting web applications, Content Management Systems (CMS), and various SaaS-type, subscription-based multi-tenant products, I specialise in building robust, scalable, and maintainable solutions.</p>
-                        <p>I worked on several multiplatform applications built for Windows (.NET, WinForms), macOS (NW.js) or iPad (Swift) and I'm always eager to expand my expertise with new technologies.</p>
-                        <p>I can help you build small or mid-sized applications, companions or command line utilities to support your existing or your brand-new product.</p>
-                        <p>Have a new feature in mind? Show me what you need, and let's make it happen.</p>
-                    </div>
                     <div id="service-web-development">
                         <h3>Websites remain the top communication platform for most businesses</h3>
                         <p>A website serves as a vital gateway for businesses, enabling them to establish credibility, reach a wide audience, and facilitate customer engagement and transactions.</p>
@@ -170,39 +156,39 @@
                     <div id="service-hire-me" class="hidden">
                         <h3>Cut the costs of a full-time employee with a limited service contract</h3>
                         <p>Constant stress and firefighting can seriously affect developers' performance and mental health. Therefor companies usually hire more people to handle the growing amount of workload. However, the process of hiring new team members can be expensive and time-consuming, especially for temporary needs.</p>
-                        <p>As an external contractor I can join your company for a fixed term, providing support to your colleagues to complete their tasks. This arrangement gives you the flexibility to assess whether permanent team expansion is necessary.</p>
+                        <p>As an external contractor I can join your company for a fixed term, providing support to your colleagues to complete their tasks inside or outside IR35. This arrangement gives you the flexibility to assess whether permanent team expansion is necessary.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="w-full bg-gradient-to-b from-dark-blue to-blue">
+    <section class="w-full bg-white">
         <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 py-10 md:py-14 lg:py-20">
-            <h2 class="text-4xl md:text-5xl font-title font-bold text-white mb-8 md:mb-16 drop-shadow">What people say about me and my work</h2>
-            <div class="grid grid-cols-3 text-white leading-normal gap-8">
+            <h2 class="text-4xl md:text-5xl font-title font-bold text-magenta mb-8 md:mb-16">What people said about me</h2>
+            <div class="grid lg:grid-cols-2 text-black leading-normal gap-6 md:gap-10 lg:gap-16 md:text-xl">
                 <div>
-                    “Working with Tamas was rewarding and a breath of fresh air, <strong class="font-bold text-yellow">not many developers can communicate as well as Tamas</strong> when it comes to designing and building systems for customers.”
+                    “Working with Tamas was rewarding and a breath of fresh air, <strong class="font-semibold text-blue">not many developers can communicate as well as Tamas</strong> when it comes to designing and building systems for customers.”
                 </div>
                 <div>
-                    “Tamas’ work developing key applications for us was excellent. He managed to be <strong class="font-bold text-yellow">both absolutely likeable and a valued thinker</strong>, which showed in his work.”
+                    “Tamas’ work developing key applications for us was excellent. He managed to be <strong class="font-semibold text-blue">both absolutely likeable and a valued thinker</strong>, which showed in his work.”
                 </div>
                 <div>
-                    “During the time we worked together he made a precise and clean work. He eagerly participates with the other members of the team, sharing his ideas and expertise. <strong class="font-bold text-yellow">He is always ready to jump in anywhere we need help.</strong>”
+                    “During the time we worked together he made a precise and clean work. He eagerly participates with the other members of the team, sharing his ideas and expertise. <strong class="font-semibold text-blue">He is always ready to jump in anywhere we need help.</strong>”
                 </div>
                 <div>
-                    “I was always very grateful for <strong class="font-bold text-yellow">Tamas' very positive attitude</strong> and outlook during our time working together, he had a very positive effect on my working life.”
+                    “I was always very grateful for <strong class="font-semibold text-blue">Tamas' very positive attitude</strong> and outlook during our time working together, he had a very positive effect on my working life.”
                 </div>
                 <div>
-                    “Tamas is a reliable, creative senior PHP developer with a genuine drive to learn new things and <strong class="font-bold text-yellow">become better at his job day by day</strong>.”
+                    “Tamas is a reliable, creative senior PHP developer with a genuine drive to learn new things and <strong class="font-semibold text-blue">become better at his job day by day</strong>.”
                 </div>
                 <div>
-                    “With his <strong class="font-bold text-yellow">strong technical and debugging skills</strong> Tamas was instrumental in developing microservices. He was extremely helpful, always one of the go-to guys for information.”
+                    “With his <strong class="font-semibold text-blue">strong technical and debugging skills</strong> Tamas was instrumental in developing microservices. He was extremely helpful, always one of the go-to guys for information.”
                 </div>
             </div>
         </div>
     </section>
-    <footer id="contact" class="w-full bg-dark-black">
-        <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-10 md:pt-14 lg:pt-20 pb-8 md:pb-14 lg:pb-10">
+    <footer id="contact" class="w-full bg-dark-blue">
+        <div class="w-full md:max-w-screen-xl m-auto px-8 xl:px-0 pt-10 md:pt-14 lg:pt-20 pb-8 md:pb-14 lg:pb-14">
             <div class="lg:flex lg:gap-10">
                 <div class="w-full lg:w-5/12 text-white pb-20 lg:pb-10">
                     <h2 class="text-4xl md:text-5xl font-title text-white font-bold mb-10 leading-tight">Let's have a chat!</h2>
@@ -220,36 +206,36 @@
                     </ul>
                     <a href="https://calendly.com/get-tamas/30min" class="block md:inline-block w-full md:w-auto text-center md:text-left rounded-md py-3 px-4 md:py-3 md:px-6 bg-yellow hover:bg-white text-dark-black hover:text-magenta font-bold text-base md:text-lg">Book a free 30 minutes call right now</a>
                 </div>
-                <div class="w-full lg:w-7/12 text-grey">
+                <div class="w-full lg:w-7/12 text-white">
                     <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" autocomplete="off">
                         <div class="flex flex-col lg:flex-row lg:gap-4 lg:justify-end lg:items-center mb-4">
                             <label class="mb-2 lg:mb-0 md:text-lg font-bold" for="contact-name">Your name</label>
-                            <input name="name" id="contact-name" type="text" class="md:w-7/12 outline-0 rounded-md py-2 px-3 bg-dark-black focus:bg-light-grey text-light-grey focus:text-dark-black text-lg border border-dark-grey focus:border-light-grey">
+                            <input name="name" id="contact-name" type="text" class="md:w-7/12 outline-0 rounded-md py-2 px-3 bg-white focus:bg-light-grey text-light-grey focus:text-dark-black text-lg focus:border-light-grey">
                         </div>
                         <div class="flex flex-col lg:flex-row lg:gap-4 lg:justify-end lg:items-center mb-4">
                             <label class="mb-2 lg:mb-0 md:text-lg font-bold" for="contact-email">Email address</label>
-                            <input name="email" type="email" id="contact-email" class="md:w-7/12 outline-0 rounded-md py-2 px-3 bg-dark-black focus:bg-light-grey text-light-grey focus:text-dark-black text-lg border border-dark-grey focus:border-light-grey">
+                            <input name="email" type="email" id="contact-email" class="md:w-7/12 outline-0 rounded-md py-2 px-3 bg-white focus:bg-light-grey text-light-grey focus:text-dark-black text-lg focus:border-light-grey">
                         </div>
                         <div class="flex flex-col lg:flex-row lg:gap-4 lg:justify-end mb-4">
                             <label class="lg:mt-1 mb-2 lg:mb-0 md:text-lg font-bold" for="contact-message">How can I help you?</label>
-                            <textarea name="message" id="contact-message" class="md:w-7/12 h-52 outline-0 rounded-md py-2 px-3 bg-dark-black focus:bg-light-grey text-light-grey focus:text-dark-black text-lg border border-dark-grey focus:border-light-grey"></textarea>
+                            <textarea name="message" id="contact-message" class="md:w-7/12 h-52 outline-0 rounded-md py-2 px-3 bg-white focus:bg-light-grey text-light-grey focus:text-dark-black text-lg focus:border-light-grey"></textarea>
                         </div>
                         <div class="hidden flex-col lg:flex-row lg:gap-4 lg:justify-end lg:items-center mb-4">
                             <label class="mb-2 lg:mb-0 md:text-lg font-bold" for="contact-bot">Only for bots</label>
-                            <input name="bot-field" id="contact-bot" type="text" class="md:w-7/12 outline-0 rounded-md py-2 px-3 bg-dark-black focus:bg-light-grey text-light-grey focus:text-dark-black text-lg border border-dark-grey focus:border-light-grey">
+                            <input name="bot-field" id="contact-bot" type="text" class="md:w-7/12 outline-0 rounded-md py-2 px-3 bg-white focus:bg-light-grey text-light-grey focus:text-dark-black text-lg focus:border-light-grey">
                         </div>
                         <div class="flex flex-col lg:flex-row lg:gap-4 lg:justify-end mb-4">
                             <div class="w-7/12">
-                                <button type="submit" class="rounded-md py-2 px-5 bg-almost-black text-grey hover:bg-light-grey hover:text-dark-black font-bold md:text-lg">Send message</button>
+                                <button type="submit" class="rounded-md py-2 px-5 bg-white text-magenta dark:text-grey hover:text-black font-bold md:text-lg">Send message</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="text-dark-grey text-sm text-center lg:pt-2 mt-16">No web designers were harmed in the making of this website. The carbon emission of this page is 0.08g of CO₂. Icons by FontAwesome. All rights reserved (c) 2024.</div>
+            <div class="text-light-grey text-xs/5 lg:text-center lg:pt-2 mt-12">No web designers were harmed in the making of this website. The carbon emission of this page is 0.08g of CO₂. Icons by FontAwesome.<br class="hidden lg:block"> WebDeveloperForHire.co.uk is a trading website of Tripleweb Limited registered in England and Wales (No. 474923167). All rights reserved (c) 2024.</div>
         </div>
     </footer>
-    <script src=".<?php echo asset('js/site.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('js/site.js'); ?>" type="text/javascript"></script>
 </div>
 </body>
 </html>

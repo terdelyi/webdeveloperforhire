@@ -7,7 +7,7 @@
 }
 
 .skill-cloud li {
-	@apply py-1 px-4 rounded-md bg-full-grey text-black font-bold shadow;
+	@apply py-1 px-4 rounded-md border border-grey text-black font-bold;
 }
 
 .skill-cloud li.green {
@@ -43,7 +43,7 @@
 }
 
 .service-description h3 {
-	@apply text-3xl text-blue font-bold font-title mb-8;
+	@apply text-3xl text-magenta font-semibold font-title mb-8;
 }
 
 .has-paragraph p {
